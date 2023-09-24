@@ -1,0 +1,29 @@
+.history{
+    width: 90%;
+    height: 90%;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+}
+
+.history-heading{
+    font-size: 1.9em;
+    background-color: gray;
+    color: white;
+}
+
+.history-body{
+    border: 1px solid gray;
+    overflow: scroll;
+}
+
+.history-item{
+    width: 100%;
+    min-height: 70px;
+    height: auto;
+    border: 1px solid gray;
+}
+
+@media (max-width: 768px) {
+    
+}
+

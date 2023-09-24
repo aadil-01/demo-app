@@ -1,0 +1,21 @@
+.notes{
+    width: 90%;
+    height: 90%;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+}
+
+.notes-textarea{
+    resize: none;
+}
+
+.notes-heading{
+    font-size: 1.9em;
+    background-color: gray;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    
+}
+
